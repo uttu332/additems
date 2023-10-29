@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,75 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body {
+  background-color: black;
+}
+.top-list {
+  margin: auto;
+  width: auto;
+  text-align: center;
+  margin-top: 10%;
+}
+p {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-weight: 800;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.shopping-list {
+  margin: auto;
+  width: 50%;
+  color: white;
+  border: 3px solid blue;
+  padding: 10px 0 10px 100px;
+  border-radius: 25px;
+  box-shadow: 1px 10px blue;
+  /* text-align: left; */
+}
+.form {
+  border: none;
+}
+input[type="text"] {
+  width: 40%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: gray;
+  border: none;
+}
+::placeholder {
+  color: black;
+  font-size: 16px;
+}
+button {
+  width: auto;
+  margin: 8px 0;
+  padding: 12px 20px;
+  /* box-sizing: border-box; */
+  border: none;
+}
+.add {
+  color: black;
+  font-weight: 700;
+  background-color: blue;
+}
+.delete {
+  color: red;
+  background-color: black;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+}
+li {
+  list-style-type: none;
+  font-size: 18px;
+}
+button:hover {
+  cursor: pointer;
 }
